@@ -7,7 +7,7 @@ RUN apt update && \
     systemctl set-default multi-user.target
 
 CMD ["/sbin/init"]
-WORKDIR /host/egpg
+WORKDIR /host/ggpg
 
 ### install dependencies
 RUN apt -y install gnupg2 pinentry-tty haveged libgfshare-bin parcimonie \

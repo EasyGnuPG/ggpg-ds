@@ -8,6 +8,6 @@ _EOF
 
 cmd_config() {
     ds inject set_prompt.sh
-    [[ -d egpg ]] \
-        || git clone --branch=gnupg-2.2 https://github.com/easygnupg/egpg
+    [[ -d ggpg ]] \
+        || git clone https://github.com/easygnupg/ggpg
 }
