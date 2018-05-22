@@ -22,3 +22,9 @@ RUN apt -y install jekyll
 
 ### install man to test man pages locally inside container
 RUN apt -y install less man
+
+### install ggpg dependencies
+RUN apt -y install python3-gi python3-gi-cairo gir1.2-gtk-3.0 python3-pip
+RUN pip3 install pygobject && \
+    pip3 install vext && \
+    pip3 install vext.gi
