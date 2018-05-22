@@ -6,14 +6,14 @@
 
   - Then get the scripts from github:
     ```
-    git clone --branch bionic \
+    git clone --branch buster \
         https://github.com/easygnupg/ggpg-ds \
-        /opt/docker-scripts/ggpg-bionic
+        /opt/docker-scripts/ggpg-buster
     ```
 
-  - Create a directory for the container: `ds init ggpg-bionic @ggpg-bionic`
+  - Create a directory for the container: `ds init ggpg-buster @ggpg-buster`
 
-  - Fix the settings: `cd /var/ds/ggpg-bionic/ ; vim settings.sh`
+  - Fix the settings: `cd /var/ds/ggpg-buster/ ; vim settings.sh`
 
   - Get the proper branch of *ggpg*: `git clone --branch gnupg-2.2 https://github.com/easygnupg/ggpg`
 

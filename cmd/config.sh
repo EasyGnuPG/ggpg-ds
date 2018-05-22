@@ -7,7 +7,7 @@ _EOF
 }
 
 cmd_config() {
-    ds inject set_prompt.sh
+    ds inject debian-fixes.sh
     [[ -d ggpg ]] \
         || git clone https://github.com/easygnupg/ggpg
 }
