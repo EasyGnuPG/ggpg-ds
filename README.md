@@ -15,9 +15,11 @@
 
   - Fix the settings: `cd /var/ds/ggpg-bionic/ ; vim settings.sh`
 
-  - Get the proper branch of *ggpg*: `git clone --branch gnupg-2.2 https://github.com/easygnupg/ggpg`
+  - Get the proper branch of *ggpg*: `git clone --branch prototype https://github.com/easygnupg/ggpg`
 
   - Create the container: `ds make`
+
+  - Run the application ``python3 main.py``
 
 
 ## Other commands
